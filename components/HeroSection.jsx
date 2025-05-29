@@ -13,12 +13,15 @@ export default function HeroSection() {
     {/* BLOB 1: ÜST SOL */}
       <div className="absolute top-[-100px] left-[-150px] w-[600px] h-[600px] opacity-20">
         <Shape className="w-full h-full" />
+
       </div>
 
-      {/* BLOB 2: ALT SAĞ */}
-      <div className="absolute bottom-[-100px] right-[-150px] w-[500px] h-[500px] opacity-20">
-        <Shape1 className="w-full h-full" />
-      </div>
+  {/* BLOB 2: ALT ORTA – FEBC0A renkte */}
+<div className="absolute bottom-[-100px] left-1/2 -translate-x-1/2 w-[500px] h-[500px] opacity-20 text-[#FEBC0A]">
+  <Shape1 className="w-full h-full" />
+</div>
+
+
 
 
 
