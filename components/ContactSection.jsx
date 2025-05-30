@@ -1,27 +1,20 @@
-/* components/ContactSection.jsx */
-
 import Person from '@/public/svg/Person';
 
 export default function ContactSection() {
   return (
     <section className="bg-white py-16">
-      {/* ❶ İçerik kabı */}
       <div className="max-w-6xl mx-auto grid gap-12 md:grid-cols-2 items-start">
-        {/* ——— SOL BLOK: İllüstrasyon ——— */}
         <div className="flex justify-center">
           <div className="w-[420px] h-[580px] bg-amber-50 flex items-center justify-center">
             <Person className="w-[260px] h-auto" />
           </div>
         </div>
 
-        {/* ——— SAĞ BLOK: Başlık + Form ——— */}
         <div>
-          {/* Başlık */}
           <h2 className="text-3xl md:text-4xl font-semibold text-right mb-10 leading-snug">
             We&apos;d love to hear<br />from you
           </h2>
 
-          {/* Form */}
           <form className="space-y-6">
             <input
               type="text"
