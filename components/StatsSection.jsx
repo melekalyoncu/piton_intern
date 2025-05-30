@@ -1,8 +1,7 @@
-"use client";                 // Next.js app router kullanıyorsan
+"use client";                 
 
 import { useEffect, useRef, useState } from "react";
 
-/* Yardımcı: “350+” → { base: 350, suffix: "+" } */
 function splitNumber(numStr) {
   const match = numStr.match(/^(\d+)(.*)$/);
   return { base: parseInt(match[1], 10), suffix: match[2] || "" };
@@ -12,7 +11,7 @@ function StatItem({ number, label, duration = 1500 }) {
   const { base, suffix } = splitNumber(number);
   const [value, setValue] = useState(0);
   const ref = useRef(null);
-  const startedRef = useRef(false);           // Tek sefer çalışsın
+  const startedRef = useRef(false);          
 
   useEffect(() => {
     const node = ref.current;
