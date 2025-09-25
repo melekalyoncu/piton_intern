@@ -12,7 +12,7 @@ export default function ContactSection() {
 
         <div>
           <h2 className="text-3xl md:text-4xl font-semibold text-right mb-10 leading-snug">
-            We&apos;d love to hear<br />from youu
+            We&apos;d love to hear<br />from you
           </h2>
 
           <form className="space-y-6">
